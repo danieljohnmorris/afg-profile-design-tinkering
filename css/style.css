@@ -1148,4 +1148,18 @@ margin: 0 0 70px;
 #stats .item-centres a { background: #CE8C00; }
 #stats .item-results a { background: #165327; }
 
+/* ---------- dan ------------------------------ */
 
+#header #logo {
+	height: 170px;
+	float: left;
+}
+	#header #logo img {
+		margin-left: 8px;
+		width: 130px;
+	}
+		#header #logo:hover img {
+			margin-left: 0px;
+			width: 146px;
+		}
+	
