@@ -60,11 +60,11 @@
 
 @font-face {
     font-family: 'LeckerliOneRegular';
-    src: url('fonts/leckerlione-webfont.eot');
-    src: url('fonts/leckerlione-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leckerlione-webfont.woff') format('woff'),
-         url('fonts/leckerlione-webfont.ttf') format('truetype'),
-         url('fonts/leckerlione-webfont.svg#LeckerliOneRegular') format('svg');
+    src: url('http://apps4good.neontribe.org/sites/all/themes/rubik/afg/fonts/leckerlione-webfont.eot');
+    src: url('http://apps4good.neontribe.org/sites/all/themes/rubik/afg/fonts/leckerlione-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://apps4good.neontribe.org/sites/all/themes/rubik/afg/fonts/leckerlione-webfont.woff') format('woff'),
+         url('http://apps4good.neontribe.org/sites/all/themes/rubik/afg/fonts/leckerlione-webfont.ttf') format('truetype'),
+         url('http://apps4good.neontribe.org/sites/all/themes/rubik/afg/fonts/leckerlione-webfont.svg#LeckerliOneRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
