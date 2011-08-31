@@ -194,7 +194,8 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "getQ": "dashboard", "views": 
         
       </div> 
 	  
-	  	    <div id='space-tools' style="display: none"><div class='dropdown-blocks toggle-blocks clear-block'>  <a class='context-block-region' id='context-block-region-space_tools'>Space tools</a> 
+	  	    <div id='space-tools' style="display: none"><div class='dropdown-blocks toggle-blocks clear-block'>  
+		<a class='context-block-region' id='context-block-region-space_tools'>Space tools</a> 
       
  
 <div  id="block-atrium-create" class="block block-atrium"> 
@@ -205,66 +206,72 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "getQ": "dashboard", "views": 
       <div class='block-content clear-block '> 
       <ul class="links"><li class="atrium_blog-blog first last"><a href="http://apps4good.neontribe.org/buzzerbuddiez/node/add/blog"><span class='spaces-feature feature-atrium_blog'></span>Blog entry</a></li> 
 </ul><a id='context-block-atrium-create' class='context-block editable edit-global'></a>    </div> 
-  
+
   </div> 
  
  
-      
- 
-<div  id="block-atrium-admin_links" class="block block-atrium"> 
-      <div class='block-title'> 
-            <h2><span class='icon'></span> Set...</h2>    </div> 
-  
-  
-      <div class='block-content clear-block '> 
-      <ul class="links"><li class="settings first"><a href="http://apps4good.neontribe.org/buzzerbuddiez/node/45/edit">Application Team settings</a></li> 
-<li class="features"><a href="http://apps4good.neontribe.org/buzzerbuddiez/node/45/features">Customize features</a></li> 
-<li class="reorder last active"><a href="http://apps4good.neontribe.org/buzzerbuddiez/dashboard#block-spaces-menu_editor" class="palette-toggle active">Reorder menu</a></li> 
-</ul><a id='context-block-atrium-admin_links' class='context-block editable edit-global'></a>    </div> 
-  
-  </div> 
- 
- 
-      
- 
-<div  id="block-atrium-search" class="block block-atrium"> 
-      <div class='block-title'> 
-            <h2><span class='icon'></span> Sea...</h2>    </div> 
-  
-  
-      <div class='block-content clear-block '> 
-      <form action="/buzzerbuddiez/dashboard"  accept-charset="UTF-8" method="post" id="atrium-search-form"> 
-<div><div  class="form-item form-item-labeled" id="edit-search-wrapper"> 
-      <label  for="edit-search">Search BuzzerBuddiez New: <span class='form-required' title='This field is required.'>*</span></label> 
-    <input type="text" maxlength="128" name="search" id="edit-search" value="" class="form-text required fluid" />  </div> 
-<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" /> 
-<input type="hidden" name="form_build_id" id="form-50a43a5910a1a73e8c9827e57dc1fe37" value="form-50a43a5910a1a73e8c9827e57dc1fe37"  /> 
-<input type="hidden" name="form_token" id="edit-atrium-search-form-form-token" value="f674052396277d86aa2720e374a59380"  /> 
-<input type="hidden" name="form_id" id="edit-atrium-search-form" value="atrium_search_form"  /> 
- 
-</div></form> 
-<a id='context-block-atrium-search' class='context-block editable edit-global'></a>    </div> 
-  
-  </div> 
- 
- 
-  </div></div> 
-	  	  <div class='dropdown-blocks toggle-blocks clear-block'>  <a class='context-block-region' id='context-block-region-page_tools'>Page tools</a> 
-      <div id='xref-create' class='block context-block-hidden'><a id='context-block-xref-create' class='context-block editable edit-global'></a></div> 
-  </div> 
-      <div id='primary-links'> 
-        <ul class="links"><li class="menu-267 active-trail active first active"><a href="http://apps4good.neontribe.org/buzzerbuddiez/dashboard" class="active spaces-menu-editable active">Profile</a></li> 
-<li class="menu-277"><a href="http://apps4good.neontribe.org/buzzerbuddiez/members" title="">Supporters</a></li> 
-<li class="menu-432"><a href="http://apps4good.neontribe.org/buzzerbuddiez/media-gallery" title="This groups images">Media Gallery</a></li> 
-<li class="menu-273"><a href="http://apps4good.neontribe.org/buzzerbuddiez/blog">Text</a></li> 
-<li class="menu-272 last"><a href="http://apps4good.neontribe.org/buzzerbuddiez/shoutbox#block-atrium_shoutbox-shoutbox" id="atrium-shoutbox-launcher" class="palette-toggle">Comments</a></li> 
-</ul>		      </div> 
-      
-      
-    </div> 
-  </div> 
-  
-  </div> 
+      <div id="block-atrium-admin_links" class="block block-atrium">
+	<div class='block-title'>
+		<h2>
+			Set...
+		</h2>
+	</div>
+	<div class='block-content clear-block'>
+		<ul class="links">
+			<li class="settings first">
+				<a href="http://apps4good.neontribe.org/buzzerbuddiez/node/45/edit">Application Team settings</a>
+			</li>
+			<li class="features">
+				<a href="http://apps4good.neontribe.org/buzzerbuddiez/node/45/features">Customize features</a>
+			</li>
+			<li class="reorder last active">
+				<a href="http://apps4good.neontribe.org/buzzerbuddiez/dashboard#block-spaces-menu_editor" class="palette-toggle active">Reorder menu</a>
+			</li>
+		</ul><a id='context-block-atrium-admin_links' class='context-block editable edit-global' name="context-block-atrium-admin_links"></a>
+	</div>
+</div>
+<div id="block-atrium-search" class="block block-atrium">
+	<div class='block-title'>
+		<h2>
+			Sea...
+		</h2>
+	</div>
+	<div class='block-content clear-block'>
+		<form action="/buzzerbuddiez/dashboard" accept-charset="UTF-8" method="post" id="atrium-search-form" name="atrium-search-form">
+			<div>
+				<div class="form-item form-item-labeled" id="edit-search-wrapper">
+					<label for="edit-search">Search BuzzerBuddiez New: <span class='form-required' title='This field is required.'>*</span></label> <input type="text" maxlength="128" name="search" id="edit-search" value="" class="form-text required fluid">
+				</div><input type="submit" name="op" id="edit-submit" value="Search" class="form-submit"> <input type="hidden" name="form_build_id" id="form-50a43a5910a1a73e8c9827e57dc1fe37" value="form-50a43a5910a1a73e8c9827e57dc1fe37"> <input type="hidden" name="form_token" id="edit-atrium-search-form-form-token" value="f674052396277d86aa2720e374a59380"> <input type="hidden" name="form_id" id="edit-atrium-search-form" value="atrium_search_form">
+			</div>
+		</form><a id='context-block-atrium-search' class='context-block editable edit-global' name="context-block-atrium-search"></a>
+	</div>
+</div>
+<div class='dropdown-blocks toggle-blocks clear-block'>
+	<a class='context-block-region' id='context-block-region-page_tools' name="context-block-region-page_tools">Page tools</a>
+	<div id='xref-create' class='block context-block-hidden'>
+		<a id='context-block-xref-create' class='context-block editable edit-global' name="context-block-xref-create"></a>
+	</div>
+</div>
+<div id='primary-links'>
+	<ul class="links">
+		<li class="menu-267 active-trail active first active">
+			<a href="http://apps4good.neontribe.org/buzzerbuddiez/dashboard" class="active spaces-menu-editable active">Profile</a>
+		</li>
+		<li class="menu-277">
+			<a href="http://apps4good.neontribe.org/buzzerbuddiez/members" title="">Supporters</a>
+		</li>
+		<li class="menu-432">
+			<a href="http://apps4good.neontribe.org/buzzerbuddiez/media-gallery" title="This groups images">Media Gallery</a>
+		</li>
+		<li class="menu-273">
+			<a href="http://apps4good.neontribe.org/buzzerbuddiez/blog">Text</a>
+		</li>
+		<li class="menu-272 last">
+			<a href="http://apps4good.neontribe.org/buzzerbuddiez/shoutbox#block-atrium_shoutbox-shoutbox" id="atrium-shoutbox-launcher" class="palette-toggle" name="atrium-shoutbox-launcher">Comments</a>
+		</li>
+	</ul>
+</div>
+
  
 <div id='page' class='clear-block limiter page-content'> 
   
