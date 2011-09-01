@@ -1212,9 +1212,10 @@ margin: 0 0 70px;
 	position: relative;
 }
 
-#logo {
+#header #logo img {
+	margin-top: -10px;
 }
-
+	
 #header-links {
 	margin: 0;
 }
