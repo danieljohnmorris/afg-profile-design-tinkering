@@ -1224,19 +1224,62 @@ margin: 0 0 70px;
 	display: block;
 	text-align: right;
 	font-size: 1.2em;
-	margin: 10px 0;
+	margin: 0 0 20px 0;
 }
 	#header-sec-links ul li {
+		margin-top: 2px;
 		display: inline-block;
 	}
-	#header-sec-links a {
-		color: #ccc;
-		margin-left: 5px;
-	}
-		#header-sec-links a:hover {
+		#header-sec-links ul li.link a {
+			margin-right: 10px;
+			color: #ccc;
+			text-decoration: underline;
+		}
+		#header-sec-links ul li img {
+			height: 25px; 
+			width: 25px; 
+			position: relative; 
+			top: .5em;
+			filter: alpha(opacity=50);
+			opacity: 0.5;
+		}	
+		#header-sec-links ul li a:hover {
 			color: white;
 			text-decoration: underline;
 		}
+			#header-sec-links a:hover img {
+				filter: alpha(opacity=100);
+				opacity: 1;
+			}	
+
+#get-involved a {
+	color: white;
+	font-size: 1.2em;
+	text-transform: capitalize;
+	background: #999 url('http://apps4good.neontribe.org/sites/all/themes/rubik/afg/images/afg/gradient.png') 0 12px repeat-x;
+	padding: 20px 9px 4px 9px;
+	margin: -20px 12px 0 0;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 2px #111;
+	-webkit-box-shadow: 0 2px #111;
+	box-shadow: 0 2px #111;
+	text-decoration: none;
+	font-family: 'Paytone One', sans-serif;
+}
+	#get-involved:hover a {
+		box-shadow: 0 0 8px 5px rgba(200, 200, 200, 1);
+		text-decoration: none;
+	}
+
+#header-sec-links ul li#get-involved a:hover {
+	text-decoration: none;
+}
+
+#header-links li:hover a {
+	box-shadow: 0 0 8px 5px rgba(200, 200, 200, 1);
+}
 
 #prof-soc-widgets {
 	margin: 10px 0 0 0;
