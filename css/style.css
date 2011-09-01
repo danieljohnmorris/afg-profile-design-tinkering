@@ -1208,3 +1208,47 @@ margin: 0 0 70px;
 	font-size: 1.5em;
 }
 
+#header {
+	position: relative;
+}
+
+#logo {
+}
+
+#header-links {
+	margin: 0;
+}
+
+#header-sec-links {
+	display: block;
+	text-align: right;
+	font-size: 1.2em;
+	margin: 10px 0;
+}
+	#header-sec-links ul li {
+		display: inline-block;
+	}
+	#header-sec-links a {
+		color: #ccc;
+		margin-left: 5px;
+	}
+		#header-sec-links a:hover {
+			color: white;
+			text-decoration: underline;
+		}
+
+#prof-soc-widgets {
+	margin: 10px 0 0 0;
+}
+	#prof-soc-widgets div {
+		float: left; 
+	}
+	#prof-soc-tw {
+		margin-top: 2px;
+	}
+	#prof-soc-li {
+		margin: 2px 0 0 5px;
+	}
+	#prof-soc-fb {
+		margin: 0 0 0 15px; 
+	}
