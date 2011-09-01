@@ -1240,8 +1240,8 @@ margin: 0 0 70px;
 			width: 25px; 
 			position: relative; 
 			top: .5em;
-			filter: alpha(opacity=50);
-			opacity: 0.5;
+			filter: alpha(opacity=60);
+			opacity: 0.6;
 		}	
 		#header-sec-links ul li a:hover {
 			color: white;
