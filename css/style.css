@@ -1302,3 +1302,76 @@ margin: 0 0 70px;
 #page-title h1 {
 	font-size: 6em;
 }
+
+/* progress banner */
+
+#progress-banner {
+	-moz-transition-property: opacity;
+	-webkit-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	opacity: 1;
+	color: white;
+	left: -65px;
+	height: 30px;
+	top: 40px;
+	position: absolute;
+	text-decoration: none;
+	width: 250px;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+#progress-banner span {
+	background: #666;
+	font-size: 14px;
+	left: 0;
+	padding: 5px 0;
+	position: absolute;
+	text-align: center;
+	width: 250px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+	box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+	-moz-transition-property: opacity;
+	-webkit-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+}
+#progress-banner span:last-child {
+	background: #A842E3;
+	opacity: 0;
+}
+#progress-banner:hover span:first-child {
+	opacity: 0;
+}
+#progress-banner:hover span:last-child {
+	opacity: 1;
+}
+@media all and (-webkit-transform-3d) {
+	#progress-banner span {
+		opacity: 1 !important;
+		-webkit-backface-visibility: hidden;
+		-webkit-transition: -webkit-transform 1s;
+	}
+	#progress-banner span:last-child {
+		-webkit-transform: rotateX(180deg);
+	}
+	#progress-banner:hover span:first-child {
+		-webkit-transform: rotateX(180deg);
+	}
+	#progress-banner:hover span:last-child {
+		-webkit-transform: rotateX(360deg);
+	}
+}
