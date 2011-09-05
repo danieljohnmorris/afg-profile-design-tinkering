@@ -1284,19 +1284,18 @@ margin: 0 0 70px;
 }
 
 #prof-soc-widgets {
-	margin: 10px 0 0 0;
+	margin: 12px 0 0 0;
 }
 	#prof-soc-widgets div {
 		float: left; 
 	}
 	#prof-soc-tw {
-		margin-top: 2px;
 	}
 	#prof-soc-li {
-		margin: 2px 0 0 5px;
+		margin-left: 5px;
 	}
 	#prof-soc-fb {
-		margin: 0 0 0 15px; 
+		margin-left: 15px;
 	}
 
 #page-title h1 {
@@ -1327,6 +1326,10 @@ margin: 0 0 70px;
 	-o-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
+
+	-moz-box-shadow: inset 2px 2px 10px #333;
+	-webkit-box-shadow: inset 2px 2px 10px #333;
+	box-shadow: inset 2px 2px 10px #333;
 }
 #progress-banner span {
 	background: #666;
